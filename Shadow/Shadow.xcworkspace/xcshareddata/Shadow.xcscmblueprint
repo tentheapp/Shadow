@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "81BD4992D74297E581C0C0F2AC39171EE93842AA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c7a255d7-9d78-e54a-b5c5-3fed673ff8f7++2412" : {
+
+    },
+    "39BDE90067A49EE13E4EDFD47BEB84F150226917" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "39BDE90067A49EE13E4EDFD47BEB84F150226917" : 9223372036854775807,
+    "c7a255d7-9d78-e54a-b5c5-3fed673ff8f7++2412" : 9223372036854775807,
+    "81BD4992D74297E581C0C0F2AC39171EE93842AA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F1E6359A-F3FF-4CFF-A71B-DF5A53C25663",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "39BDE90067A49EE13E4EDFD47BEB84F150226917" : "Shadow_iOS\/",
+    "c7a255d7-9d78-e54a-b5c5-3fed673ff8f7++2412" : "SHADOW\/",
+    "81BD4992D74297E581C0C0F2AC39171EE93842AA" : "GitShadow4\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Shadow",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Shadow\/Shadow.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.8.18.47\/CreativeCrew",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39BDE90067A49EE13E4EDFD47BEB84F150226917"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tentheapp\/ShadowiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81BD4992D74297E581C0C0F2AC39171EE93842AA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.8.18.47\/CreativeCrew",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c7a255d7-9d78-e54a-b5c5-3fed673ff8f7++2412"
+    }
+  ]
+}

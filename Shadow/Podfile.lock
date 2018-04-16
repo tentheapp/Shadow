@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.1):
+    - GoogleMaps (= 2.3.1)
+    - GooglePlaces (= 2.3.1)
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+  - ICGVideoTrimmer (1.1)
+  - QuickBlox (2.9.2)
+  - RSKImageCropper (1.6.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6)
+  - Charts
+  - GooglePlacePicker
+  - GooglePlaces
+  - ICGVideoTrimmer
+  - QuickBlox
+  - RSKImageCropper
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlacePicker: fc3564ac7a2ce314e78e42bfc1e16822ad1e5488
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+  ICGVideoTrimmer: 1f54de0595af56af2a406f20cdb33c1c440d15cd
+  QuickBlox: 67cafa5d7b237db7344c506ca5dc38365180cacb
+  RSKImageCropper: 356e36fc58c57c371b5d8b23d603936d6a73df6c
+
+PODFILE CHECKSUM: 93a136bd44a39a9761d0260db1aeaac615ecd496
+
+COCOAPODS: 1.4.0

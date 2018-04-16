@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/Charts" "${PODS_CONFIGURATION_BUILD_DIR}/ICGVideoTrimmer" "${PODS_CONFIGURATION_BUILD_DIR}/RSKImageCropper" "${PODS_ROOT}/GoogleMaps/Base/Frameworks" "${PODS_ROOT}/GoogleMaps/Maps/Frameworks" "${PODS_ROOT}/GooglePlacePicker/Frameworks" "${PODS_ROOT}/GooglePlaces/Frameworks" "${PODS_ROOT}/QuickBlox"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = /usr/include/libxml2 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GoogleMaps" "${PODS_ROOT}/Headers/Public/GooglePlacePicker" "${PODS_ROOT}/Headers/Public/GooglePlaces" "${PODS_ROOT}/Headers/Public/QuickBlox"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Charts/Charts.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ICGVideoTrimmer/ICGVideoTrimmer.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/RSKImageCropper/RSKImageCropper.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GoogleMaps" -isystem "${PODS_ROOT}/Headers/Public/GooglePlacePicker" -isystem "${PODS_ROOT}/Headers/Public/GooglePlaces" -isystem "${PODS_ROOT}/Headers/Public/QuickBlox"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"resolv" -l"stdc++" -l"xml2" -l"z" -framework "Accelerate" -framework "Alamofire" -framework "CFNetwork" -framework "Charts" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreText" -framework "GLKit" -framework "GoogleMaps" -framework "GoogleMapsBase" -framework "GoogleMapsCore" -framework "GooglePlacePicker" -framework "GooglePlaces" -framework "ICGVideoTrimmer" -framework "ImageIO" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Quickblox" -framework "RSKImageCropper" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
